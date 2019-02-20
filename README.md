@@ -8,7 +8,7 @@ man dieUmgebung direkt aus Eclipse starten und nutzen kann.
 
 Um mit dem Projekt zu starten muss dieses zuerst einmal ausgecheckt bzw.
 geclont werden. Danach kann man es direkt als "Existing Maven Project" in
-Eclipse importierern und alle notwendigen Strukturen sollten ohne große
+Eclipse importieren und alle notwendigen Strukturen sollten ohne große
 Probleme zusammengestellt werden.
 
 ## RoboCode UI
