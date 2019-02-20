@@ -19,6 +19,17 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
     </properties>
 
+    <dependencies>
+
+        <!-- https://mvnrepository.com/artifact/net.sf.robocode/robocode.api -->
+        <dependency>
+            <groupId>net.sf.robocode</groupId>
+            <artifactId>robocode.api</artifactId>
+            <version>1.9.2.1</version>
+        </dependency>
+
+    </dependencies>
+
     <build>
         <resources>
             <resource>
@@ -75,22 +86,6 @@
             </plugins>
         </pluginManagement>
     </build>
-
-    <dependencyManagement>
-        <dependencies>
-
-            <!-- https://mvnrepository.com/artifact/net.sf.robocode/robocode.api -->
-            <dependency>
-                <groupId>net.sf.robocode</groupId>
-                <artifactId>robocode.api</artifactId>
-                <version>1.9.2.1</version>
-            </dependency>
-
-        </dependencies>
-    </dependencyManagement>
-
-
-
 
 </project>
 
