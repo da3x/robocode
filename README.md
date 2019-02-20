@@ -25,6 +25,13 @@ den Pfad zum Projekt in den Einstellungen hinterlegen:
 
 ![Settings](screens/2019-02-20 at 15.26.png) 
 
+Alternativ kann man versuchen, in der `config/robocode.properties` den
+folgenden Eintrag zu hinterlegen:
+
+`robocode.options.development.path=.`
+
+Ob dieser dauerhaft erhalten bleibt, kann ich aber noch nicht sagen.
+
 ### Let's go!
 
 Danach kann man über das Menü einen neuen Kampf starten und die Bots
