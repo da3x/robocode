@@ -31,7 +31,7 @@ public class Terminator extends AdvancedRobot {
 
     @Override
     public void onHitWall(HitWallEvent event) {
-        // Wenn wir eine Wand treffen drehen wir uns einfach mal um 90 Grad weg.
-        this.turnLeft(90);
+        // Wenn wir eine Wand treffen drehen wir uns einfach mal um 90 bis 180 Grad weg.
+        this.turnLeft(Math.random() * 90 + 90);
     }
 }
