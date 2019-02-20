@@ -23,7 +23,7 @@ im Terminal ausführen und voila – das UI erscheint.
 Damit das RoboCode UI zur Laufzeit die eigenen Bots findet, muss man
 den Pfad zum Projekt in den Einstellungen hinterlegen:
 
-![Settings](screens/2019-02-20 at 15.26.png) 
+![Settings](screens/2019-02-20%20at%2015.26.png) 
 
 Alternativ kann man versuchen, in der `config/robocode.properties` den
 folgenden Eintrag zu hinterlegen:
@@ -37,4 +37,4 @@ Ob dieser dauerhaft erhalten bleibt, kann ich aber noch nicht sagen.
 Danach kann man über das Menü einen neuen Kampf starten und die Bots
 einzeln oder auch mehrfach hinzufügen.
 
-![Battle](screens/2019-02-20 at 15.27.png) 
+![Battle](screens/2019-02-20%20at%2015.27.png) 
