@@ -17,3 +17,17 @@ Um später die Bots gegeneinander antreten zu lassen, muss man das
 eigentliche RoboCode UI starten. Dazu gibt es die `robocode.sh` im
 Root des Verzeichnisses. Unter macOS oder Linux kann man diese direkt
 im Terminal ausführen und voila – das UI erscheint.
+
+### Einstellungen
+
+Damit das RoboCode UI zur Laufzeit die eigenen Bots findet, muss man
+den Pfad zum Projekt in den Einstellungen hinterlegen:
+
+![Settings](screens/2019-02-20 at 15.26.png) 
+
+### Let's go!
+
+Danach kann man über das Menü einen neuen Kampf starten und die Bots
+einzeln oder auch mehrfach hinzufügen.
+
+![Battle](screens/2019-02-20 at 15.27.png) 
