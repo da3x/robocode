@@ -1,5 +1,7 @@
 package de.da3x.robocode.robots;
 
+import java.awt.Color;
+
 import robocode.AdvancedRobot;
 import robocode.HitWallEvent;
 import robocode.ScannedRobotEvent;
@@ -14,8 +16,16 @@ public class Terminator extends AdvancedRobot {
 
     @Override
     public void run() {
-        // Wir wollen grundsätzlich immer in Bewegung bleiben...
+
+        this.setColors(Color.RED, Color.BLACK, Color.RED);
+
+        // Wir wollen grundsätzlich immer in Bewegung bleiben. Wir bauen aber einen gewissen Zufall
+        // ein, der uns hin und wieder ein wenig dreht – damit wir nicht zu berechenbar sind.
         while (true) {
+
+            if (Math.random() < 0.1) this.setTurnRight(90);
+            if (Math.random() > 0.9) this.setTurnLeft(90);
+
             this.setAhead(500);
             this.turnGunRight(360);
             this.execute();
